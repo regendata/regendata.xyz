@@ -57,10 +57,10 @@ export default function Home() {
     <main className="flex min-h-[100dvh] flex-col items-center justify-between md:py-24 py-12 px-2">
       <div className="flex flex-1 flex-col z-10 max-w-md w-full items-center justify-center font-mono text-sm border rounded px-4 py-16">
         <h1 className="mb-4 text-xl font-semibold">
-          👋🏾 Hello Data Analyst
+          👋🏾 Hello Data Analyst 
         </h1>
         <p className="mb-8 text-center px-8">
-          Request invite to the <a href="https://app.regendata.xyz" className="underline underline-offset-2" target="_blank">Regendata</a> metabase instance to play around with Gitcoin grants data.
+          Request invite to the <a href="https://app.regendata.xyz" className="underline underline-offset-2" target="_blank">Regendata</a> metabase instance to play around with Gitcoin Grants data.
         </p>
         <Form {...form}>
           <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-4 w-full">
