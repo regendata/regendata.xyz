@@ -17,7 +17,7 @@ export async function POST(req: Request) {
     lastName: params.lastName,
   })
 
-  const authRes = await axios.post('https://app.regendata.xyz/api/session', {
+  const authRes = await axios.post('https://regendata.xyz/api/session', {
     username: process.env.USERNAME as string,
     password: process.env.PASSWORD as string,
   })
